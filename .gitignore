@@ -1,12 +1,16 @@
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
+# Compiled extensions
 *.so
 
+# Distribution / packaging
 .Python
 build/
-develop-eggs
+develop-eggs/
 dist/
 downloads/
 eggs/
@@ -18,18 +22,30 @@ sdist/
 var/
 wheels/
 share/python-wheels/
-*.eggs-info/
+*.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-*.MANIFEST*.spec
-
+# Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+# Unit test / coverage reports
 htmlcov/
 .tox/
 .nox/
 .coverage
 .coverage.*
 .cache
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# PyInstaller
+*.manifest
+*.spec
